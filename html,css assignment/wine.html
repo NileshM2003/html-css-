@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        width: 100%;
+        height: 135vh;
+        background: url(https://demo.phlox.pro/drink-wine/wp-content/uploads/sites/205/2020/07/Group_20-e1593860431555.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .main header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .logo img {
+        width: fit-content;
+        height: inherit;
+
+    }
+
+    .main header nav {
+        margin-left: 15%;
+    }
+
+    span {
+        padding-left: 40px;
+        font-size: 20px;
+        font-family: 'Playfair Display';
+        text-transform: capitalize;
+        color: white;
+    }
+
+    header button {
+        text-decoration: none;
+        border: 2px solid #ffe4b1;
+        background-color: transparent;
+        padding: 18px 45px 18px 45px;
+        font-size: 18px;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        font-family: 'Playfair Display';
+        color: #ffe4b1;
+        text-transform: uppercase;
+        transition: all linear 0.5s;
+    }
+
+    header button:hover {
+        background-color: #ffe4b1;
+        color: black;
+    }
+
+    .p1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+    }
+
+    .con {
+        width: 48%;
+        margin: 10% auto;
+        background: url(https://demo.phlox.pro/drink-wine/wp-content/uploads/sites/205/2020/08/Group_4.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .con h1 {
+        color: #ffe4b1;
+        font-size: 70px;
+        text-transform: capitalize;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .con p {
+        color: rgba(152, 154, 155, 0.655);
+        font-size: 17px;
+        margin-top: 9%;
+        line-height: 22px;
+        /* line-height: initial; */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .con button {
+        border: 2px solid #ffe4b1;
+        padding: 15px 30px 15px 30px;
+        letter-spacing: 1px;
+        margin-top: 10%;
+        background-color: transparent;
+        font-size: 18px;
+        font-family: 'Playfair Display';
+        text-transform: uppercase;
+        color: #ffe4b1;
+        transition: all linear 0.5s;
+
+    }
+
+    .con button:hover {
+        background-color: #ffe4b1;
+        color: black;
+    }
+
+    .right {
+        width: 48%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right .p2 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .right .p2 img {
+        width: 93%;
+        height: inherit;
+    }
+
+    .right .p3 {
+        width: 91%;
+        margin-top: -152%;
+    }
+
+    .right .p3 img {
+        width: 100%;
+        height: inherit;
+        margin-top: 5%;
+    }
+    .bo{
+        width: 16%;
+        margin-top: 4%;
+        border-bottom: 1px solid #ffe4b1;
+    }
+     .p1 .con .info{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 13%; 
+        padding: 15px;
+    }
+    .info h2{
+        color: #ffe4b1;
+        font-size: 40px;
+    }
+    .info span{
+        /* color: #ffe4b1; */
+        font-size: 25px;
+    }
+
+</style>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="logo">
+                <!-- <h2>phlox</h2> -->
+                <img src="https://demo.phlox.pro/drink-wine/wp-content/uploads/sites/205/2020/07/logo.png" alt="">
+            </div>
+            <nav>
+                <span>about</span>
+                <span>feauters</span>
+                <span>details</span>
+                <span>introduce</span>
+                <span>testimonlas</span>
+            </nav>
+            <button>Contact Us</button>
+        </header>
+        <!-- header close -->
+        <div class="p1">
+            <div class="con">
+                <h1>find the right<br>bottle</h1>
+                <div class="bo"></div>
+                <p>Apparently we had reached a great height in the atmosphere, for the sky<br>was a dead black, and the
+                    stars had ceased to twinkle. By the same<br> illusion which lifts the horizon of the sea.</p>
+                <button>View Full Details</button>
+                <div class="info">
+                    <span>Year:</span>
+                        <h2>1996</h2>
+                        <span>Alcohol:</span><h2>12%</h2>
+                        <span>Sweetness:</span><h2>69%</h2>
+                        <span>Viscosity:</span><h2>0.89</h2>
+                </div>
+                
+            </div>
+            <div class="right">
+                <div class="p2">
+                    <img src="https://demo.phlox.pro/drink-wine/wp-content/uploads/sites/205/2020/08/Wine111-Mockups2.png"
+                        alt="">
+                    <div class="p3">
+                        <img src="https://demo.phlox.pro/drink-wine/wp-content/uploads/sites/205/2020/08/Wine111-Mockups1.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- p1 close -->
+    </div>
+</body>
+</html>
